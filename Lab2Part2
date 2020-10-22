@@ -1,0 +1,64 @@
+import java.util.*;
+
+class Main
+{
+  public static void main(String[] args)
+  {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter the distance from the tee: ");
+    int clubDistance = scan.nextInt();
+
+    if(clubDistance <= 20)
+    {
+      return "Use your Putter";
+    }
+    else if(clubDistance <= 70)
+    {
+      return "Use your SW";
+    }
+    else if(clubDistance <= 90)
+    {
+      return "Use your GW";
+    }
+    else if(clubDistance <= 100)
+    {
+      return "Use your PW";
+    }
+    else if(clubDistance <= 115)
+    {
+      return "Use your 9 Iron";
+    }
+    else if(clubDistance <= 130)
+    {
+      return "Use your 8 Iron";
+    }
+    else if(clubDistance <= 140)
+    {
+      return "Use your 7 Iron";
+    }
+    else if(clubDistance <= 150)
+    {
+      return "Use your 6 Iron";
+    }
+    else if(clubDistance <= 160)
+    {
+      return "Use your 5 Iron";
+    }
+    else if(clubDistance <= 170)
+    {
+      return "Use your 4 Iron";
+    }
+    else if(clubDistance <= 180)
+    {
+      return "Use your 3 Iron";
+    }
+    else if(clubDistance <= 200)
+    {
+      return "Use your 3 Wood";
+    }
+    else if(clubDistance <= 230)
+    {
+      return "Use your Driver";
+    }
+  }
+}
