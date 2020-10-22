@@ -1,0 +1,29 @@
+public class GolfClub
+{
+  public GolfClub(String clubname, int clubDistance)
+  {
+    this.clubname = clubName;
+    this.clubDistance = clubDistance;
+  }
+  public GolfBag()
+  { 
+    ArrayList clubs = new ArrayList();
+    clubs.add("Putter");
+    clubs.add("SW");
+    clubs.add("GW");
+    clubs.add("PW");
+    clubs.add("9 Iron");
+    clubs.add("8 Iron");
+    clubs.add("7 Iron");
+    clubs.add("6 Iron");
+    clubs.add("5 Iron");
+    clubs.add("4 Iron");
+    clubs.add("3 Iron");
+    clubs.add("3 Wood");
+    clubs.add("Driver");
+  }
+  public void display()
+  {
+    System.out.println("Your bag includes: " + this.clubName);
+  }
+}
